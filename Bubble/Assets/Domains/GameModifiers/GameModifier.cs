@@ -8,6 +8,8 @@ public class GameModifier
 {
     public GameModifierType Type;
     public Sprite Icon;
+    public bool Good = true;
+    public GameObject Prefab;
 }
 
 public enum GameModifierType
@@ -22,5 +24,7 @@ public enum GameModifierType
     Sword,
     BreakablePlatforms,
     ShortPlatforms,
+    Enemy,
+    Shield,
     Random
 }
